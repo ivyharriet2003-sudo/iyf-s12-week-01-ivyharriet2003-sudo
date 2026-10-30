@@ -1,24 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Contact - Ivy Harriet Isamisi</title></head>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ivy Harriet - Contact</title>
+<link rel="stylesheet" href="style.css">
+</head>
 <body>
-<nav><a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="projects.html">Projects</a> | <a href="contact.html">Contact</a></nav>
+<header>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="projects.html">Projects</a>
+<a href="contact.html" aria-current="page">Contact</a>
+</nav>
+</header>
+<main>
 <h1>Contact Me</h1>
+<p>Email me for projects or collaboration.</p>
 <form>
-<fieldset><legend>Personal Info</legend>
-<label for="name">Full Name *</label><br><input type="text" id="name" required><br><br>
-<label for="email">Email *</label><br><input type="email" id="email" required><br><br>
-<label for="phone">Phone</label><br><input type="tel" id="phone"><br><br>
-</fieldset>
-<fieldset><legend>Message</legend>
-<label for="subject">Subject</label><br><select id="subject"><option>General</option><option>Collaboration</option><option>Feedback</option></select><br><br>
-<label for="message">Message *</label><br><textarea id="message" required minlength="50"></textarea><br><br>
-<input type="checkbox" id="news"><label for="news">Subscribe</label><br><br>
-</fieldset>
-<button type="submit">Submit</button>
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required>
+<br><br>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+<br><br>
+<label for="message">Message:</label>
+<textarea id="message" name="message" required></textarea>
+<br><br>
+<button type="submit">Send</button>
 </form>
-<p>Email: ivyharriet2003@gmail.com</p>
-<p>LinkedIn: Ivy Harriet Isamisi</p>
-<p>Location: Nairobi, Kenya GMT+3</p>
+</main>
+<footer>
+<p>&copy; 2026 Ivy Harriet</p>
+</footer>
 </body>
 </html>
